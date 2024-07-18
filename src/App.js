@@ -1,9 +1,13 @@
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <div>it's working!</div>
+      <div className='container mt-3 text-center'>
+        <div classNAme='card bg-light m-auto'>
+          <h1>Temperature</h1>
+        </div>
+      </div>
     </div>
   );
 }
