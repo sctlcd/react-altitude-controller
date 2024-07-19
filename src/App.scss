@@ -157,25 +157,44 @@
   background-color: $grey-300;
 }
 
+.text-light {
+  color: $grey-300;
+}
+
 /* card */
 .card-container {
   justify-content: left;
   align-items: center;
 }
 
+// .card {
+//   width: 20rem;
+//   margin: 1.5rem;
+//   color: $grey-800;
+//   border-radius: 0.5rem;
+//   overflow: hidden;
+//   box-shadow: 0 1px 6px $grey-500;
+//   border: none;
+// }
+
+/*Cards  */
 .card {
-  width: 20rem;
-  margin: 1.5rem;
-  color: $grey-800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: 0 1px 6px $grey-500;
-  border: none;
+  /*Card Header and Footer*/
 }
 
-.card:hover {
-  box-shadow: 0 2px 6px rgba(17, 17, 17);
+.border-50 {
+  border-radius: 50%;
 }
+
+// .card:hover {
+  //   box-shadow: 0 2px 6px rgba(17, 17, 17);
+  // }
 
 .card-content {
   text-align: center;
