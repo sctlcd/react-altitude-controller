@@ -13,8 +13,8 @@ function App() {
             Length
           </h1>
           <div className='d-flex my-2'>
-            <Button text="-" btnClass={"btn-lg"} onClick={console.log("-")} />
-            <Button text="+" btnClass={"btn-lg"} onClick={console.log("+")} />
+            <Button text="-" btnClass={"btn-lg border-10"} onClick={() => console.log("-")} />
+            <Button text="+" btnClass={"btn-lg border-10"} onClick={() => console.log("+")} />
           </div>
         </div>
       </div>
