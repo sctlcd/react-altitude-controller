@@ -3,7 +3,13 @@ import Button from "./components/Button";
 import React, {useState} from "react";
 
 function App() {
-  const [length, setlength] = useState(0);
+  const [length, setLength] = useState(0);
+  const increaseLength = () => {
+    setLength(length + 1);
+  };
+  const decreaseLength = () => {
+    setLength(length - 1);
+  };
 
   return (
     <div className="App">
@@ -16,8 +22,8 @@ function App() {
             {length}
           </h1>
           <div className='d-flex my-2'>
-            <Button text="-" btnClass={"btn-lg border-10"} onClick={() => console.log("-")} />
-            <Button text="+" btnClass={"btn-lg border-10"} onClick={() => console.log("+")} />
+            <Button text="-" btnClass={"btn-lg border-10"} onClick={decreaseLength} />
+            <Button text="+" btnClass={"btn-lg border-10"} onClick={increaseLength} />
           </div>
         </div>
       </div>
