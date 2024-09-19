@@ -16,7 +16,7 @@ function App() {
       <div className='container mt-3 mb-3 text-center d-flex'>
         <div className='card bg-light m-auto style={{width: 200}} px-2 pt-2'>
           <h1
-            className='text-light card border-50'
+            className={`text-light card border-50 ${altitude > 0 ? 'bg-danger' : 'bg-info'}`}
             style={{height:150, width:150, border: '2px solid #666'}}
           >
             {altitude}
