@@ -19,7 +19,7 @@ function App() {
             className={`text-light card border-50 ${altitude > 0 ? 'bg-danger' : 'bg-info'}`}
             style={{height:150, width:150, border: '2px solid #666'}}
           >
-            {altitude}
+            {altitude} m
           </h1>
           <div className='d-flex my-2'>
             <Button text="-" btnClass={"btn-lg border-10"} onClick={decreaseAltitude} />
