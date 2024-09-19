@@ -1,5 +1,5 @@
 {
-  "name": "react-length-controller",
+  "name": "react-altitude-controller",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,13 @@
   },
   "devDependencies": {
     "sass": "^1.77.8"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "react-altitude-controller"
   }
 }
