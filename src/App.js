@@ -3,12 +3,12 @@ import Button from "./components/Button";
 import React, {useState} from "react";
 
 function App() {
-  const [length, setLength] = useState(0);
-  const increaseLength = () => {
-    setLength(length + 1);
+  const [altitude, setAltitude] = useState(0);
+  const increaseAltitude = () => {
+    setAltitude(altitude + 1);
   };
-  const decreaseLength = () => {
-    setLength(length - 1);
+  const decreaseAltitude = () => {
+    setAltitude(altitude - 1);
   };
 
   return (
@@ -19,11 +19,11 @@ function App() {
             className='text-light card border-50'
             style={{height:150, width:150, border: '2px solid #666'}}
           >
-            {length}
+            {altitude}
           </h1>
           <div className='d-flex my-2'>
-            <Button text="-" btnClass={"btn-lg border-10"} onClick={decreaseLength} />
-            <Button text="+" btnClass={"btn-lg border-10"} onClick={increaseLength} />
+            <Button text="-" btnClass={"btn-lg border-10"} onClick={decreaseAltitude} />
+            <Button text="+" btnClass={"btn-lg border-10"} onClick={increaseAltitude} />
           </div>
         </div>
       </div>
