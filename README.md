@@ -244,7 +244,7 @@ Back to [top](#tableOfContents)
 
 ### Media <a name="media"></a>
 
-- [favicon.ico]() - [Flaticon](https://www.flaticon.com/) | copyright [Freepik](https://www.freepik.com)
+- [favicon.ico](https://www.flaticon.com/free-icon/altitude_9620006?term=altitude&page=1&position=4&origin=search&related_id=9620006) - [Flaticon](https://www.flaticon.com/) | copyright [orvipixel](https://www.flaticon.com/authors/orvipixel)
 
 Back to [top](#tableOfContents)
 
