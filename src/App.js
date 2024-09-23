@@ -18,7 +18,7 @@ function App() {
           <div className='m-3'>
             <h1 className='fs-xl'>Altitude controller</h1>
           </div>
-          <div className='card bg-light m-auto style={{width: 200}} px-2 pt-2'>
+          <div className='card bg-grey m-auto style={{width: 200}} px-2 pt-2'>
             <h1
               className={`text-light fs-lg card border-50 ${altitude > 0 ? 'bg-danger' : 'bg-info'}`}
               style={{height:150, width:150, border: '2px solid #666'}}
