@@ -424,15 +424,15 @@ body {
 /* Background */
 
 .bg-danger {
-  background-color: #f23f3f;
+  background-color: $red;
 }
 
 .bg-info {
-  background-color: #05a8c1;
+  background-color: $blue;
 }
 
 .bg-grey {
-  background-color: #acacac;
+  background-color: $grey;
 }
 
 
@@ -442,7 +442,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0.5rem 1rem $black-08;
   border-radius: 0.5rem;
 }
 
@@ -466,13 +466,13 @@ body {
 
 .card-header,
 .card-footer {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: $black-005;
   width: 100%;
   padding: 1rem;
   font-weight: 500;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  border-bottom: 1px solid rgba(102, 102, 102, 0.125);
+  border-bottom: 1px solid $grey-0125;
 }
 
 .card-footer {
@@ -481,7 +481,7 @@ body {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-bottom: none;
-  border-top: 1px solid rgba(102, 102, 102, 0.125);
+  border-top: 1px solid $grey-0125;
 }
 
 /* Border */
